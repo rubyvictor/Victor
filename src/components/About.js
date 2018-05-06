@@ -1,42 +1,42 @@
 import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
 
-import profilePic from "../assets/images/profilepic.jpg";
+// import profilePic from "../assets/images/profilepic.jpg";
+import profileVic from "../assets/images/profile-vic.jpg";
 
 const About = () => (
   <section id="about">
     <div className="row">
       <div className="three columns">
-        <img className="profile-pic" src={profilePic} alt="" />
+        <img className="profile-pic" src={profileVic} alt="" />
       </div>
       <div className="nine columns main-col">
-        <h2>About Me</h2>
+        <h2>About My Stack</h2>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam.
+          <ul>JavaScript</ul>
+          <ul>Python</ul>
+          <ul>Swift iOS</ul>
+          <ul>Node.js</ul>
+          <ul>Express.js</ul>
+          <ul>React.js</ul>
+          <ul>Create-react-app</ul>
+          <ul>MongoDB</ul>
+          <ul>MySQL</ul>
         </p>
         <div className="row">
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Jonathan Doe</span>
+              <span>Victor Lee</span>
               <br />
               <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
+                790 Yishun Ave 2
+                <br /> Singapore, 760790
               </span>
               <br />
-              <span>(123)456-7890</span>
+              <span>(65)98002795</span>
               <br />
-              <span>anyone@website.com</span>
+              <span>myleevictor@gmail.com</span>
             </p>
           </div>
           <div className="columns download">
