@@ -15,7 +15,7 @@ const Banner = () => (
         and learn more
         <a className="smoothscroll" href="#about">
           {" "}
-          about my stack.
+          about me.
         </a>.
       </h3>
       <hr />

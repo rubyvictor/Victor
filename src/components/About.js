@@ -11,7 +11,7 @@ const About = () => (
         <img className="profile-pic" src={profileVic} alt="" />
       </div>
       <div className="nine columns main-col">
-        <h2>About My Me</h2>
+        <h2>About Me</h2>
         <p>
           I'm a self-taught coder who's passionate about technology. After
           learning my first language Swift on youTube, I've continued to learn
