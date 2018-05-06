@@ -7,7 +7,7 @@ const Banner = () => (
       <h1 className="responsive-headline">I'm Victor Lee.</h1>
       <h3>
         I'm a Singapore based <span>full stack Node.js Developer</span>,
-        <span>career switcher</span> and <span>former tech start-up co-founder</span> creating interesting apps. Let's 
+        <span> career switcher</span> and <span>former tech start-up co-founder</span> creating interesting apps. Let's 
         <a className="smoothscroll" href="#about">
           {" "}
           start scrolling

@@ -19,7 +19,7 @@ const About = () => (
         </p>
         <div className="row">
           <div className="columns contact-details">
-            <h2>Contact Details</h2>
+            <h3>Contact Details</h3>
             <p className="address">
               <span>Victor Lee</span>
               <br />
