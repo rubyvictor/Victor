@@ -1010,7 +1010,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #161415 url("http://res.cloudinary.com/dw8sniwdq/image/upload/v1459227502/SG_hi5tfv.jpg") no-repeat;
+  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
