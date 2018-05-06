@@ -11,17 +11,11 @@ const About = () => (
         <img className="profile-pic" src={profileVic} alt="" />
       </div>
       <div className="nine columns main-col">
-        <h2>About My Stack</h2>
+        <h2>About My Me</h2>
         <p>
-          <ul>JavaScript</ul>
-          <ul>Python</ul>
-          <ul>Swift iOS</ul>
-          <ul>Node.js</ul>
-          <ul>Express.js</ul>
-          <ul>React.js</ul>
-          <ul>Create-react-app</ul>
-          <ul>MongoDB</ul>
-          <ul>MySQL</ul>
+          I'm a self-taught coder who's passionate about technology. After
+          learning my first language Swift on youTube, I've continued to learn
+          new languages and frameworks to put new ideas into action.
         </p>
         <div className="row">
           <div className="columns contact-details">
