@@ -867,14 +867,14 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 90px/1.1em "verdana", sans-serif;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
-  font: 36px/1.9em "librebaskerville-regular", serif;
+  font: 36px/1.9em "verdana", serif;
   color: #fff;
   margin: 0 auto;
   width: 70%;
@@ -947,7 +947,7 @@ header .scrolldown a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  font: 12px "opensans-bold", sans-serif;
+  font: 12px "verdana", sans-serif;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -1010,7 +1010,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #303030;
+  background: #0E0E0E;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -1026,13 +1026,13 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font: 22px/30px "verdana", sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
 
 #about h3 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font: 22px/30px "verdana", sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -1093,7 +1093,7 @@ ul#nav li.current a {
 }
 
 #resume h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px "verdana", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -1102,7 +1102,7 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font: 25px/30px "verdana", sans-serif;
 }
 
 #resume .header-col {
@@ -1155,7 +1155,7 @@ ul#nav li.current a {
   border-radius: 3px;
 }
 .bars li em {
-  font: 15px "opensans-bold", sans-serif;
+  font: 15px "verdana", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1364,7 +1364,7 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 15px/24px "verdana-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -1442,11 +1442,11 @@ ul#nav li.current a {
   padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px "opensans-bold", sans-serif;
+  font: 14px/21px "verdana-bold", sans-serif;
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
+  font: 12px/18px "verdana-light", sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
 }
@@ -1474,7 +1474,7 @@ ul#nav li.current a {
   padding: 12px 36px 18px 36px;
 }
 .popup-modal .description-box h4 {
-  font: 15px/24px "opensans-bold", sans-serif;
+  font: 15px/24px "verdana-bold", sans-serif;
   margin-bottom: 12px;
   color: #111;
 }
@@ -2041,7 +2041,7 @@ footer .social li:first-child {
   /* header styles
  ------------------------------------------------------------------ */
  header .banner-text h1 {
-    font: 80px/1.1em 'opensans-bold', sans-serif;
+    font: 80px/1.1em 'verdana', sans-serif;
     letter-spacing: -1px;
     margin: 0 auto 12px auto;
  }
@@ -2056,11 +2056,11 @@ footer .social li:first-child {
  ------------------------------------------------------------------ */
  header .banner { padding-bottom: 12px; }
  header .banner-text h1 {
-    font: 78px/1.1em 'opensans-bold', sans-serif;
+    font: 78px/1.1em 'verdana', sans-serif;
     letter-spacing: -1px;
  }
  header .banner-text h3 {
-    font: 17px/1.9em 'librebaskerville-regular', serif;
+    font: 36px/1.9em 'verdana', serif;
     width: 80%;
  }
  header .banner-text hr {
