@@ -1026,19 +1026,19 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px "verdana", sans-serif;
+  font: 25px/33px "verdana", sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
 
 #about h3 {
-  font: 22px/30px "verdana", sans-serif;
+  font: 25px/33px "verdana", sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
 
 #about p {
-  line-height: 30px;
+  line-height: 33px;
   color: #fff;
   text-shadow: 0px 1px 3px black;
 }
