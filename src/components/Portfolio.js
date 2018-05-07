@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
-import Coffee from "../assets/images/portfolio/coffee.jpg";
+import myFeedback from "../assets/images/portfolio/myFeedback.png";
 import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
 import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
@@ -22,12 +22,12 @@ const Portfolio = () => (
         >
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
-                <img alt="" src={Coffee} />
+              <a href="" title="">
+                <img alt="" src={myFeedback} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
+                    <h5>myFeedback</h5>
+                    <p>Web App</p>
                   </div>
                 </div>
                 <div className="link-icon">
