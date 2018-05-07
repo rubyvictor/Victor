@@ -10,27 +10,23 @@ const Skills = () => (
 
     <div className="nine columns main-col">
       <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt.
+        My current dev stack includes Javascript, Node.js, Express.js, React.js,
+        Create-react-app, MongoDB and mySQL.
       </p>
 
       <div className="bars">
         <ul className="skills">
           <li>
-            <span className="bar-expand photoshop" />
-            <em>Photoshop</em>
+            <span className="bar-expand javascript" />
+            <em>Javascript</em>
           </li>
           <li>
-            <span className="bar-expand illustrator" />
-            <em>Illustrator</em>
+            <span className="bar-expand react" />
+            <em>React.js</em>
           </li>
           <li>
-            <span className="bar-expand wordpress" />
-            <em>Wordpress</em>
+            <span className="bar-expand express" />
+            <em>Express.js</em>
           </li>
           <li>
             <span className="bar-expand css" />
@@ -43,6 +39,14 @@ const Skills = () => (
           <li>
             <span className="bar-expand nodejs" />
             <em>Nodejs</em>
+          </li>
+          <li>
+            <span className="bar-expand mongodb" />
+            <em>MongoDB</em>
+          </li>
+          <li>
+            <span className="bar-expand mysql" />
+            <em>mySQL</em>
           </li>
         </ul>
       </div>

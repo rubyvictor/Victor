@@ -1175,38 +1175,58 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.javascript {
+  width: 70%;
+  -moz-animation: javascript 2s ease;
+  -webkit-animation: javascript 2s ease;
+}
+.react {
   width: 60%;
-  -moz-animation: photoshop 2s ease;
-  -webkit-animation: photoshop 2s ease;
+  -moz-animation: react 2s ease;
+  -webkit-animation: react 2s ease;
 }
-.illustrator {
-  width: 55%;
-  -moz-animation: illustrator 2s ease;
-  -webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  width: 50%;
-  -moz-animation: wordpress 2s ease;
-  -webkit-animation: wordpress 2s ease;
+.express {
+  width: 60%;
+  -moz-animation: express 2s ease;
+  -webkit-animation: express 2s ease;
 }
 .css {
-  width: 90%;
+  width: 60%;
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 }
 .html5 {
-  width: 80%;
+  width: 70%;
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
 }
-.jquery {
-  width: 50%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+.nodejs {
+  width: 70%;
+  -moz-animation: nodejs 2s ease;
+  -webkit-animation: nodejs 2s ease;
 }
 
-@-moz-keyframes photoshop {
+.mongodb {
+  width: 70%;
+  -moz-animation: mongodb 2s ease;
+  -webkit-animation: mongodb 2s ease;
+}
+
+.mysql {
+  width: 70%;
+  -moz-animation: mysql 2s ease;
+  -webkit-animation: mysql 2s ease;
+}
+
+@-moz-keyframes javascript {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-moz-keyframes react {
   0% {
     width: 0px;
   }
@@ -1214,20 +1234,12 @@ ul#nav li.current a {
     width: 60%;
   }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes express {
   0% {
     width: 0px;
   }
   100% {
-    width: 55%;
-  }
-}
-@-moz-keyframes wordpress {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
+    width: 60%;
   }
 }
 @-moz-keyframes css {
@@ -1235,7 +1247,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 90%;
+    width: 60%;
   }
 }
 @-moz-keyframes html5 {
@@ -1243,19 +1255,45 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 70%;
   }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes nodejs {
   0% {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 
-@-webkit-keyframes photoshop {
+@-moz-keyframes mongodb {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-moz-keyframes mysql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes javascript {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes react {
   0% {
     width: 0px;
   }
@@ -1263,20 +1301,12 @@ ul#nav li.current a {
     width: 60%;
   }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes express {
   0% {
     width: 0px;
   }
   100% {
-    width: 55%;
-  }
-}
-@-webkit-keyframes wordpress {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
+    width: 60%;
   }
 }
 @-webkit-keyframes css {
@@ -1284,7 +1314,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 90%;
+    width: 60%;
   }
 }
 @-webkit-keyframes html5 {
@@ -1292,15 +1322,33 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 70%;
   }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes nodejs {
   0% {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes mongodb {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes mysql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
   }
 }
 
