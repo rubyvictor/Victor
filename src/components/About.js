@@ -1,5 +1,4 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
 
 // import profilePic from "../assets/images/profilepic.jpg";
 import profileVic from "../assets/images/profile-vic.png";
@@ -31,13 +30,6 @@ const About = () => (
               <span>(65)98002795</span>
               <br />
               <span>myleevictor@gmail.com</span>
-            </p>
-          </div>
-          <div className="columns download">
-            <p>
-              <a href="#" className="button">
-                <FaCloudDownload /> Download Resume
-              </a>
             </p>
           </div>
         </div>
