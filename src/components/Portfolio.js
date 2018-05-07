@@ -11,13 +11,13 @@ const Portfolio = () => (
       <div className="twelve columns collapsed">
         <h1>Check Out Some of My Works.</h1>
 
-        <div
-          id="portfolio-wrapper"
-          className="s-bgrid-thirds cf"
-        >
+        <div id="portfolio-wrapper" className="s-bgrid-thirds cf">
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="" title="">
+              <a
+                href="https://my-feedback-team-a-staging.herokuapp.com/"
+                title=""
+              >
                 <img alt="" src={MyFeedback} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -34,7 +34,7 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="#modal-02" title="">
+              <a href="http://find-beers.herokuapp.com/" title="">
                 <img alt="" src={FindBeers} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -51,7 +51,7 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="#modal-03" title="">
+              <a href="https://www.messenger.com/t/355996308244443" title="">
                 <img alt="" src={VictorBot} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
