@@ -13,8 +13,8 @@ const About = () => (
         <h2>About Me</h2>
         <p>
           I'm a self-taught coder who's passionate about technology. After
-          learning my first language Swift on youTube, I've continued to learn
-          new languages and frameworks to put new ideas into action.
+          learning my first language Swift on youTube, I've continued to pick up
+          new languages and frameworks to put more ideas into action.
         </p>
         <div className="row">
           <div className="columns contact-details">
