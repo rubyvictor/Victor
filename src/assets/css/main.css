@@ -1042,6 +1042,13 @@ ul#nav li.current a {
   color: #fff;
   text-shadow: 0px 1px 3px black;
 }
+
+#about p1 {
+  line-height: 30px;
+  color: #f06000;
+  text-shadow: 0px 1px 3px black;
+}
+
 #about .profile-pic {
   position: relative;
   width: 120px;

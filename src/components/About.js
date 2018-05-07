@@ -11,11 +11,11 @@ const About = () => (
       </div>
       <div className="nine columns main-col">
         <h2>About Me</h2>
-        <p>
+        <p1>
           I'm a self-taught coder who's passionate about technology. After
           learning my first language Swift on youTube, I've continued to learn
           new languages and frameworks to put new ideas into action.
-        </p>
+        </p1>
         <div className="row">
           <div className="columns contact-details">
             <h3>Contact Details</h3>
