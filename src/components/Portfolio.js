@@ -1,14 +1,9 @@
 import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
-import myFeedback from "../assets/images/portfolio/myFeedback.png";
-import Console from "../assets/images/portfolio/console.jpg";
-import Judah from "../assets/images/portfolio/judah.jpg";
-import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
-import Farmerboy from "../assets/images/portfolio/farmerboy.jpg";
-import Girl from "../assets/images/portfolio/girl.jpg";
-import Origami from "../assets/images/portfolio/origami.jpg";
-import Retrocam from "../assets/images/portfolio/retrocam.jpg";
+import MyFeedback from "../assets/images/portfolio/myFeedback.png";
+import FindBeers from "../assets/images/portfolio/find-beers.png";
+import VictorBot from "../assets/images/portfolio/victor-bot.png";
 
 const Portfolio = () => (
   <section id="portfolio">
@@ -23,7 +18,7 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="" title="">
-                <img alt="" src={myFeedback} />
+                <img alt="" src={MyFeedback} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>myFeedback</h5>
@@ -40,11 +35,11 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-02" title="">
-                <img alt="" src={Console} />
+                <img alt="" src={FindBeers} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
+                    <h5>Find Beers</h5>
+                    <p>Web App</p>
                   </div>
                 </div>
                 <div className="link-icon">
@@ -57,96 +52,11 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-03" title="">
-                <img alt="" src={Judah} />
+                <img alt="" src={VictorBot} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Judah</h5>
-                    <p>Webdesign</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-04" title="">
-                <img alt="" src={IntoTheLight} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Into The Light</h5>
-                    <p>Photography</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-05" title="">
-                <img alt="" src={Farmerboy} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Farmer Boy</h5>
-                    <p>Branding</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-06" title="">
-                <img alt="" src={Girl} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Girl</h5>
-                    <p>Photography</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-07" title="">
-                <img alt="" src={Origami} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Origami</h5>
-                    <p>Illustrration</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-08" title="">
-                <img alt="" src={Retrocam} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Retrocam</h5>
-                    <p>Web Development</p>
+                    <h5>Victor Bot</h5>
+                    <p>FB Messenger Weather Chatbot</p>
                   </div>
                 </div>
                 <div className="link-icon">
