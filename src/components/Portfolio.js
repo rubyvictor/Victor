@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPlus, FaTag } from "react-icons/lib/fa";
+import { FaInternetExplorer, FaCommentsO } from "react-icons/lib/fa";
 
 import MyFeedback from "../assets/images/portfolio/myFeedback.png";
 import FindBeers from "../assets/images/portfolio/find-beers.png";
@@ -13,7 +13,7 @@ const Portfolio = () => (
 
         <div
           id="portfolio-wrapper"
-          className="bgrid-quarters s-bgrid-thirds cf"
+          className="s-bgrid-thirds cf"
         >
           <div className="columns portfolio-item">
             <div className="item-wrap">
@@ -26,7 +26,7 @@ const Portfolio = () => (
                   </div>
                 </div>
                 <div className="link-icon">
-                  <FaPlus />
+                  <FaInternetExplorer />
                 </div>
               </a>
             </div>
@@ -43,7 +43,7 @@ const Portfolio = () => (
                   </div>
                 </div>
                 <div className="link-icon">
-                  <FaPlus />
+                  <FaInternetExplorer />
                 </div>
               </a>
             </div>
@@ -60,7 +60,7 @@ const Portfolio = () => (
                   </div>
                 </div>
                 <div className="link-icon">
-                  <FaPlus />
+                  <FaCommentsO />
                 </div>
               </a>
             </div>
